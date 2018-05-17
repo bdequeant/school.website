@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<title>Hancock High</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+       <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+      <a href="academics.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Academics</a>
+      <a href="clubs.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Clubs</a>
+    <a href="sports.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Sports</a>
+     </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1 style="font-size: 80px"><b>Student Academics </b></h1>
+  <p><b></b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()"></button></p>
+</header>
+</div>
+
+<p style="text-align: center">
+    
+    <h1 style="text-align: center">
+    Oliva and Elijah Dosda were accepted to Mississippi School for Mathematics and Science. Both of the students are very excited!
+    
+    </h1>
+    
+    
+    <h2 style="text-align: center">
+        <img src="IMG_2736-e1525723549481-548x246.jpg" ></h2>    
+    
+    <h1 style="text-align: center;">These students are recognized by their inclusion in the Hall of Fame which rewards school and community involvement, extra-curricular activity, and academic excellence as well as good character, leadership, and achievement.<br>
+       <img style="width: 800px" src="IMG_1713-540x228.jpg"> <br>
+Destre Bennett<br>
+Skylar Cuevas<br>
+Jordan Desplas<br>
+Victoria Feazelle<br>
+Cooper Grafe<br>
+Rachel Huynh<br>
+Leah Ladner<br>
+Madison Ladner<br>
+Adam Lalejini<br>
+Sydney Lee<br>
+Lindsay Liljedahl<br>
+Angel Navarro<br>
+Reece Necaise<br>
+Anna Peterson<br>
+Lexi Turner<br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </h1>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </p>
+
+<script>
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else { 
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+}
+
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
